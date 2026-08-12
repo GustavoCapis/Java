@@ -12,7 +12,7 @@ public class Aula05Exercicio {
         } else {
             tax = 49.50 / 100;
         }
-        double debt =  anualSalary * tax;
+        double debt = anualSalary * tax;
         System.out.println(debt);
     }
 }
