@@ -11,11 +11,20 @@ public class Aula04Operadores {
         int modulo = 20 % 2;
         System.out.println(modulo);
 
-        //lógicos: <, >, <=, >=, ==, !=
+        //relacionais: <, >, <=, >=, ==, !=
         boolean isTenGreaterThanTwenty = 10 > 20;
 
         System.out.println(isTenGreaterThanTwenty);
 
+        //logicos: &&, ||, !
 
+        //atribuíção: =, +=, -=, *=, /=, %=
+        double bonus = 1800;
+        bonus += 1000;
+        System.out.println(bonus);
+        //incrementa: ++ decrementa: --
+        int increment = 0;
+        increment++;
+        System.out.println(increment);
     }
 }
