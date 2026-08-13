@@ -3,9 +3,9 @@ package academy.devdojo.maratona.java.introducao;
 public class Aula05Switch {
     static void main(String[] args) {
         int day = 3;
-
+        // Só funciona com int, byte, short, enum e String
         switch (day) {
-            case 1 :
+            case 1:
                 System.out.println("Sun");
                 break;
             case 2:
