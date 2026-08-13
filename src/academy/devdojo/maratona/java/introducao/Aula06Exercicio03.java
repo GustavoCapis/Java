@@ -12,6 +12,7 @@ public class Aula06Exercicio03 {
                 break;
             }
             System.out.println("Parcela " + parcela + "R$ " + valorParcela);
+
         }
 
     }
