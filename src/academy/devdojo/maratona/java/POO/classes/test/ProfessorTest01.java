@@ -1,6 +1,6 @@
-package academy.devdojo.maratona.java.POO.test;
+package academy.devdojo.maratona.java.POO.classes.test;
 
-import academy.devdojo.maratona.java.POO.dominio.Professor;
+import academy.devdojo.maratona.java.POO.classes.dominio.Professor;
 
 public class ProfessorTest01 {
     static void main(String[] args) {

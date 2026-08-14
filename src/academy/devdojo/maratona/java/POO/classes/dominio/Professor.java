@@ -1,4 +1,4 @@
-package academy.devdojo.maratona.java.POO.dominio;
+package academy.devdojo.maratona.java.POO.classes.dominio;
 
 public class Professor {
     public String nome;
