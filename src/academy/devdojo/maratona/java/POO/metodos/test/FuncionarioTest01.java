@@ -10,6 +10,6 @@ public class FuncionarioTest01 {
         funcionario.salarios = new double[]{1000, 2000, 1500};
 
         funcionario.imprimeDados();
-        funcionario.imprimeMedia(1000, 2000, 1500);
+        funcionario.imprimeMedia(funcionario.salarios);
     }
 }
