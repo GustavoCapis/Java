@@ -2,9 +2,9 @@ package academy.devdojo.maratona.java.POO.metodos.test;
 
 import academy.devdojo.maratona.java.POO.metodos.dominio.Calculadora;
 
-public class CalculadoraTest02 {
+public class CalculadoraTest03 {
     static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
-        calculadora.mulTwoNum(2,8);
+        calculadora.divTwoNum(20, 2);
     }
 }
