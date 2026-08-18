@@ -12,12 +12,12 @@ public class Anime {
         this.episodios = episodios;
     }
 
-    public void init(String nome, String tipo, int episodios, String genero){
+    public void init(String nome, String tipo, int episodios, String genero) {
         this.init(nome, tipo, episodios);
         this.genero = genero;
     }
 
-    public void print(){
+    public void print() {
         System.out.println(this.nome);
         System.out.println(this.tipo);
         System.out.println(this.episodios);
