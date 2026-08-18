@@ -1,9 +1,28 @@
 package academy.devdojo.maratona.java.POO.metodos.dominio;
 
 public class Funcionario {
-    public String nome;
-    public int idade;
-    public double[] salarios;
+    private String nome;
+    private int idade;
+
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    private double[] salarios;
+
+
+    public void setSalarios(double[] salarios) {
+        this.salarios = salarios;
+    }
 
     public void imprimeDados() {
         System.out.println("---Dados do Funcionário---");
@@ -16,13 +35,12 @@ public class Funcionario {
         }
     }
 
-    public double imprimeMedia(double... salarios) {
+    public double getMedia() {
         double soma = 0;
-        int qtd = salarios.length;
-        for (double salario : salarios) {
+        for (double salario : this.salarios) {
             soma += salario;
         }
-        double media = soma / qtd;
+        double media = soma / this.salarios.length;
         System.out.println("Média salarial:" + media);
         return media;
     }
