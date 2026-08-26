@@ -3,10 +3,6 @@ package academy.devdojo.maratona.java.POO.enumeracao.dominio;
 public class Cliente {
 
 
-    public enum TipoPagamento {
-        DEBITO, CREDITO
-    }
-
     public String nome;
     public TipoCliente tipoCliente;
     public TipoPagamento tipoPagamento;
