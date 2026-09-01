@@ -18,6 +18,5 @@ public class DataLoaderTest01 {
         fileLoader.checkPermission();
 
         databaseLoader.retrieveMaxDataSize();
-        DataLoader.
     }
 }
