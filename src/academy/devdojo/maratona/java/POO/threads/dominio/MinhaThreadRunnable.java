@@ -1,8 +1,8 @@
 package academy.devdojo.maratona.java.POO.threads.dominio;
 
 public class MinhaThreadRunnable implements Runnable {
-    private String nome;
-    private int tempo;
+    private final String nome;
+    private final int tempo;
 
     public MinhaThreadRunnable(String nome, int tempo) {
         this.nome = nome;
